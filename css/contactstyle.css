@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=Inter");
+
+* {
+  font-family: "Inter", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact-section-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  column-gap: 30px;
+}
+
+.contact-section-form {
+  margin-top: 20px;
+  position: relative;
+  max-width: 430px;
+  width: 100%;
+  padding: 30px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.form-content h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1b262c;
+  text-align: left;
+}
+
+.contact-field {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.contact-field input,
+.contact-field textarea {
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 8px;
+}
+
+.contact-field input,
+.contact-field textarea {
+  outline: none;
+  padding: 10px 15px;
+  border: 1px solid #cacaca;
+}
+
+.contact-field input:focus,
+.contact-field textarea:focus {
+  border-bottom-width: 2px;
+}
+
+.contact-form-button button {
+  margin-top: 80px;
+  height: 50px;
+  width: 100%;
+  border: none;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 8px;
+}
+
+.contact-form-button button {
+  color: #fff;
+  background-color: #0f4c75;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.contact-form-button button:hover {
+  background-color: #bbe1fa;
+}
+
+.contact-field textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.contact-info {
+  max-width: 500px;
+  width: 100%;
+  padding: 30px;
+}
+
+.contact-info h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1b262c;
+  text-align: left;
+}
+
+.contact-info p {
+  font-size: 14.4px;
+  font-weight: 400;
+  color: #333;
+  margin-top: 10px;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.contact-icons .icon img {
+  width: 25px;
+}
+
+.google-maps {
+  margin-top: 20px;
+  width: 100%;
+  text-align: left;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 320px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .mapouter {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .mapouter {
+    height: 250px;
+  }
+}

@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Inter");
+
+* {
+  font-family: "Inter", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  position: absolute;
+  background-color: #fff;
+  box-sizing: border-box;
+  height: 65px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.navbar-logo {
+  cursor: pointer;
+  max-height: 20px;
+  vertical-align: middle;
+  position: relative;
+  top: 15px;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar-logo img {
+  height: 35px;
+  margin-right: 8px;
+}
+
+.navbar-logo span {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.logo img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.logo span {
+  font-size: 14.4px;
+  font-weight: bold;
+}
+
+.profile-details {
+  margin-top: 30px;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.profile-details img {
+  width: 220px;
+  border-radius: 8px;
+}
+
+.profile-container {
+  width: 800px;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  gap: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.profile-desc {
+  margin-right: 40px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.profile-desc h3 {
+  margin-bottom: 5px;
+}
+
+.profile-desc p {
+  color: #666666;
+  font-size: 14.4;
+  margin-bottom: 10px;
+}
+
+.profile-desc img {
+  width: 25px;
+}
+
+hr {
+  width: 200px;
+  margin: 20px auto 10px;
+  border-top: 1px solid #ddd;
+}
+
+button {
+  background-color: #af0e0e;
+  color: #fff;
+  padding: 9px 15px;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9em;
+  transition: background-color 0.3s;
+  position: relative;
+  top: 15px;
+  align-items: center;
+}
+
+button:hover {
+  background-color: #ca0000;
+}

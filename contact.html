@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/navstyle.css" />
+    <link rel="stylesheet" href="css/contactstyle.css" />
+    <link rel="stylesheet" href="css/footerstyle.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="navbar-container">
+            <a href="#" class="logo">
+                <img src="img/skensa_logo.png" alt="School Logo" />
+                <span>SMKN 1 Denpasar</span>
+            </a>
+            <nav class="navbar-menu">
+                <ul>
+                    <li><a onclick="location.href='homepage.html'">Home</a></li>
+                    <li><a onclick="location.href='profileguru.html'">Teacher Profile</a></li>
+                    <li id="dropdown" class="dropdown">
+                        Class <span class="arrow up"></span>
+                        <div class="dropdown-content">
+                            <a onclick="location.href='classx.html'">X RPL</a>
+                            <a onclick="location.href='classxi.html'">XI RPL</a>
+                            <a onclick="location.href='classxii.html'">XII RPL</a>
+                          </div>
+                    </li>
+                </ul>
+                <a href="login.html" class="logout-btn">Logout</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="contact-section-container">
+            <!-- Left side: Contact form -->
+            <div class="contact-section-form">
+                <div class="form-content">
+                    <h1>Contact Us</h1>
+                    <div class="contact-field input-field">
+                        <input type="text" placeholder="Your Name" class="input">
+                    </div>
+                    <div class="contact-field input-field">
+                        <input type="email" placeholder="Phone Number" class="input">
+                    </div>
+                    <div class="contact-field input-field">
+                        <input type="text" placeholder="Email" class="input">
+                    </div>
+                    <div class="contact-field input-field">
+                        <textarea placeholder="Write Comments/ Questions Here.." class="input"></textarea>
+                    </div>
+                    <div class="contact-form-button">
+                        <button onclick="submitContactForm()">Submit</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-info">
+                <h2>Kirim masukan anda!</h2>
+                <p>Seluruh pertanyaan yang masuk melalui form ini hanya akan kami balas melalui email yang tertera,
+                    sehingga periksalah kembali sebelum mengirimkan data pada form ini. Gunakanlah bahasa yang sopan.
+                </p>
+                <div class="contact-icons">
+                    <a href="#" class="icon"><img src="img/icon/twitter-icon.png" alt="Icon 1"></a>
+                    <a href="#" class="icon"><img src="img/icon/facebook-icon.png" alt="Icon 2"></a>
+                    <a href="#" class="icon"><img src="img/icon/ig-instagram.png" alt="Icon 3"></a>
+                    <a href="#" class="icon"><img src="img/icon/linkedin-icon.png" alt="Icon 4"></a>
+                </div>
+
+                <div class="google-maps">
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe width="420" height="320" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=-8.637818622860385%2C+115.20730117674498&t=&z=18&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="row between main-footer">
+                <div class="columns three">
+                    <div class="footer-logo">
+                        <img src="img/skensa_logo.png" alt="Logo" />
+                        <span>SMKN 1 Denpasar</span>
+                    </div>
+                    <div class="contactnumber"><img src="img/icon/telephone-icon.png" class="icon-phone"></img>0852 8023
+                        9768
+                    </div>
+                    <p class="copyright">© 2010 - <span id="current-year">2024</span>, SMKN 1 Denpasar.</p>
+                    <p class="copyright">All rights reserved.</p>
+                    <ul class="social">
+                        <li>
+                            <a href="#"><img src="img/icon/twitter-icon.png" class="media-icon"></img></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/icon/facebook-icon.png" class="media-icon"></img></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/icon/ig-instagram.png" class="media-icon"></img></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/icon/linkedin-icon.png" class="media-icon"></img></a>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="columns three">
+                    <ul>
+                        <li class="nav-head">Shortcut</li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#facility">Facility</a></li>
+                        <li><a href="#achievement">Achievement</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="columns three">
+                    <ul>
+                        <li class="nav-head">Support</li>
+                        <li><a onclick="location.href='contact.html'">Contact</a></li>
+                        <li>
+                            <a href="#">Get Support</a>
+                        </li>
+                        <li><a href="#">Location</a></li>
+                        <li><a href="#">List Of Class</a></li>
+                    </ul>
+                </div>
+                <div class="columns three">
+                    <ul>
+                        <li class="nav-head">Account</li>
+                        <li>
+                            <a href="#">Create Account</a>
+                        </li>
+                        <li>
+                            <a href="#">Sign In</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/dropdown.js"></script>
+
+</body>
+
+</html>
