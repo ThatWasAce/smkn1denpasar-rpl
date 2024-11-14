@@ -46,6 +46,10 @@
   align-items: center;
 }
 
+.navbar-menu li:after {
+  pointer-events: none;
+}
+
 .navbar-menu ul li {
   position: relative;
 }
