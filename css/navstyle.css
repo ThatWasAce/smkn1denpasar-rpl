@@ -44,7 +44,6 @@
   list-style: none;
   display: flex;
   align-items: center;
-  pointer-events: none;
 }
 
 .navbar-menu ul li {
